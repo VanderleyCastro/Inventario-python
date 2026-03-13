@@ -1,0 +1,207 @@
+# 📦 Sistema de Inventario Básico en Python
+
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Estado](https://img.shields.io/badge/Estado-Educativo-green)
+![Licencia](https://img.shields.io/badge/Licencia-MIT-orange)
+
+---
+
+# 📖 Descripción
+
+Este proyecto consiste en un **sistema básico de inventario desarrollado en Python** que permite registrar información de un producto y calcular automáticamente su **costo total**.
+
+El programa solicita al usuario los siguientes datos:
+
+* Nombre del producto
+* Cantidad de unidades
+* Precio unitario
+
+Posteriormente, el sistema valida los datos ingresados para evitar errores y muestra un **resumen del producto registrado** junto con el **total a pagar**.
+
+Este proyecto está diseñado con fines **educativos**, ideal para personas que están comenzando a aprender **programación en Python**.
+
+---
+
+# 🎯 Objetivos del Proyecto
+
+* Practicar conceptos básicos de programación en Python.
+* Implementar validación de datos ingresados por el usuario.
+* Comprender el uso de estructuras de control como **bucles (`while`)**.
+* Aplicar manejo de errores con **`try` y `except`**.
+* Desarrollar lógica básica de cálculo en programas interactivos.
+
+---
+
+# ⚙️ Características
+
+✅ Validación de nombre de producto
+✅ Verificación de cantidad como número entero positivo
+✅ Validación de precio como número positivo
+✅ Manejo de errores en la entrada de datos
+✅ Cálculo automático del costo total
+✅ Resumen claro de la información ingresada
+
+---
+
+# 🗂️ Estructura del Proyecto
+
+inventario-python/
+
+├── inventario.py
+└── README.md
+
+| Archivo       | Descripción                               |
+| ------------- | ----------------------------------------- |
+| inventario.py | Contiene el código principal del programa |
+| README.md     | Documentación del proyecto                |
+
+---
+
+# 💻 Requisitos
+
+Para ejecutar este programa necesitas:
+
+* **Python 3.x**
+
+Puedes descargarlo desde:
+https://www.python.org/downloads/
+
+Para verificar que Python está instalado correctamente puedes usar:
+
+python --version
+
+---
+
+# ▶️ Instalación y Ejecución
+
+## 1️⃣ Clonar el repositorio
+
+git clone https://github.com/tuusuario/inventario-python.git
+
+## 2️⃣ Acceder a la carpeta del proyecto
+
+cd inventario-python
+
+## 3️⃣ Ejecutar el programa
+
+python inventario.py
+
+---
+
+# 🖥️ Ejemplo de Uso
+
+### Entrada del usuario
+
+Ingrese el nombre del producto: Café
+Ingrese la cantidad del producto: 3
+Ingrese el precio del producto: 4.50
+
+### Salida del programa
+
+======= Resumen del inventario =======
+Producto:        Café
+Cantidad:        3
+Precio unitario: 4.5
+Total a pagar:   13.5
+
+---
+
+# 🧠 Conceptos de Programación Utilizados
+
+### Variables
+
+Se utilizan para almacenar información ingresada por el usuario.
+
+precio = 0
+cantidad = 0
+costo_total = 0
+
+---
+
+### Entrada de datos
+
+El programa solicita datos al usuario utilizando la función:
+
+input()
+
+---
+
+### Bucles while
+
+Se utilizan para repetir la solicitud de datos **hasta que el usuario ingrese información válida**.
+
+---
+
+### Manejo de excepciones
+
+Se utiliza `try` y `except` para evitar que el programa falle cuando se ingresan datos incorrectos.
+
+Ejemplo:
+
+try:
+cantidad = int(input())
+except ValueError:
+print("Dato inválido")
+
+---
+
+### Operaciones matemáticas
+
+El costo total se calcula con:
+
+costo_total = cantidad * precio
+
+---
+
+# ⚠️ Validaciones Implementadas
+
+El sistema previene los siguientes errores:
+
+| Error                      | Solución                      |
+| -------------------------- | ----------------------------- |
+| Nombre vacío               | Solicita nuevamente el nombre |
+| Cantidad no numérica       | Muestra mensaje de error      |
+| Cantidad menor o igual a 0 | Solicita una cantidad válida  |
+| Precio no numérico         | Muestra mensaje de error      |
+| Precio menor o igual a 0   | Solicita un precio válido     |
+
+---
+
+# 🚀 Posibles Mejoras
+
+Este proyecto puede ampliarse agregando nuevas funcionalidades como:
+
+* Registro de **múltiples productos**
+* Guardado de inventario en **archivos**
+* Implementación de un **menú interactivo**
+* Uso de **listas o diccionarios**
+* Creación de una **interfaz gráfica**
+* Integración con **bases de datos**
+
+---
+
+# 📚 Uso Educativo
+
+Este proyecto es ideal para estudiantes que estén aprendiendo:
+
+* Fundamentos de Python
+* Control de flujo
+* Validación de datos
+* Programación interactiva en consola
+
+---
+
+# 👨‍💻 Autor
+
+Proyecto educativo desarrollado para aprender **Python**.
+
+---
+
+# 📄 Licencia
+
+Este proyecto se distribuye bajo la licencia **MIT**.
+
+Puedes usarlo, modificarlo y compartirlo libremente con fines educativos.
+
+
+
