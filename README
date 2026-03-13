@@ -1,11 +1,3 @@
-# 📦 Sistema de Inventario Básico en Python
-
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Estado](https://img.shields.io/badge/Estado-Educativo-green)
-![Licencia](https://img.shields.io/badge/Licencia-MIT-orange)
-
----
-
 # 📖 Descripción
 
 Este proyecto consiste en un **sistema básico de inventario desarrollado en Python** que permite registrar información de un producto y calcular automáticamente su **costo total**.
